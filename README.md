@@ -2,7 +2,7 @@
 
 A React module to render colored bars based on password strength
 
-![Example]('./Image.PNG')
+![Example](Image.PNG)
 
 The modules takes password as an prop and checks following rules on it
 
