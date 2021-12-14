@@ -4,16 +4,14 @@ A React module to render colored bars based on password strength
 
 The modules takes password as an prop and checks following rules on it
 
-1. #### hasDigits = (string) =>
-   /\d/.test(string);
-2. #### hasUppercase = (string) =>
-   /[A-Z]/.test(string);
-3. #### hasLowercase = (string) =>
-   /[a-z]/.test(string);
-4. #### hasEightLength = (string) =>
-   (string.length >= 8 ? true : false);
-5. #### hasSpecialCharacter = (string) =>
+```
+1. hasDigits = (string) => /\d/.test(string);
+2. hasUppercase = (string) => /[A-Z]/.test(string);
+3. hasLowercase = (string) => /[a-z]/.test(string);
+4. hasEightLength = (string) => (string.length >= 8 ? true : false);
+5. hasSpecialCharacter = (string) =>
    /._[/!`~\_;'+=@#$%^&_()\]\\,.?":{}|<>-]/.test(string);
+```
 
 Password is categorized into 4 types.
 
