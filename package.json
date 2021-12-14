@@ -4,7 +4,7 @@
   "description": "",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sabiriiui/password-strength-bars.git"
+    "url": "git+https://github.com/sabiriiui/passwordstrengthbars.git"
   },
   "keywords": [
     "react",
@@ -21,9 +21,9 @@
     "email": "sabir.iiui@gmail.com"
   },
   "bugs": {
-    "url": "https://github.com/sabiriiui/password-strength-bars/issues"
+    "url": "https://github.com/sabiriiui/passwordstrengthbars/issues"
   },
-  "homepage": "https://github.com/sabiriiui/password-strength-bars#readme",
+  "homepage": "https://github.com/sabiriiui/passwordstrengthbars#readme",
   "main": "./build/index.js",
   "scripts": {
     "build": "webpack"
