@@ -1,0 +1,38 @@
+.passwordStrengthContainer {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+.passwordStrengthContainer .strengthBars {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.passwordStrengthContainer .strengthBars .strengthBar {
+  width: calc(25% - 5px);
+  height: 4px;
+  background: #cfd4dd;
+  border-radius: 50px;
+}
+.passwordStrengthContainer .strengthBars .empty {
+  background: #cfd4dd;
+}
+.passwordStrengthContainer .strengthBars .weak {
+  background: #ef4836;
+}
+.passwordStrengthContainer .strengthBars .normal {
+  background: #f6b44d;
+}
+.passwordStrengthContainer .strengthBars .good {
+  background: #2b90ef;
+}
+.passwordStrengthContainer .strengthBars .strong {
+  background: #a2ca6f;
+}
+.passwordStrengthContainer .strengthTitleContainer {
+  display: flex;
+  align-items: center;
+}
+.passwordStrengthContainer .strengthTitleContainer .strengthTitle {
+  margin-left: 3px;
+}
